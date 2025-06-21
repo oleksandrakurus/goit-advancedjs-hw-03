@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-03/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тема 6. HTTP-запити і взаємодія з бекендом. Домашня робота</title>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-03/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-vwbIfzmB.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-03/assets/index-Drr0HMKl.css">
+  </head>
+  <body>
+    <main>
+      <!-- Search form -->
+      <form class="form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+          class="search-input"
+        />
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+
+      <!-- Loader -->
+      <span class="loader" id="loader" style="display: none;">
+        <div class="loader-spinner"></div>
+        <p>Loading images, please wait...</p>
+      </span>
+
+      <!-- Gallery -->
+      <ul class="gallery" id="gallery"></ul>
+    </main>
+
+  </body>
+</html>
